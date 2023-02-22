@@ -1,0 +1,90 @@
+.body{
+    margin:0;
+    background-color:rgb(224, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.link{
+    color: rgb(72, 61, 139);
+    transition: color .3s;
+}
+
+.link:hover{
+    color:green;
+}
+
+.header{
+    padding: 20px;
+    border-bottom: 1px solid cornflowerblue;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    flex: 0;
+}
+
+.header-link{
+    margin: 15px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.aside {
+    padding: 15px;
+    flex: 0;
+}
+
+.main-section{
+    flex-grow: 1;
+    padding-left: 25px;
+}
+
+.img-me{
+    border: 2px solid mediumblue;
+}
+
+.title {
+    color: rgb(106, 90, 205);
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.subtitle {
+    padding-left: 12px;
+    color: darkblue;
+    margin-top: 18px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+.p, ul {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+.contacts-icon{
+    width: 35px;
+    margin-right: 7px;
+}
+
+.contacts-item{
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    border-top: 2px solid rebeccapurple;
+    padding: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+
